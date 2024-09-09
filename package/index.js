@@ -1,1 +1,3 @@
-module.exports = () => console.log("Funcionou");
+module.exports = function testPackage() {
+    console.log("Funcionou");
+}
